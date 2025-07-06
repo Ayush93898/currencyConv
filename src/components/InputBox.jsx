@@ -46,7 +46,7 @@ function InputBox({
           }}
           disabled={currencyDisabled}
         >
-          {currencyOptions.map((currency) => (
+          {currencyOptions.m  ap((currency) => (
             <option key={currency} value={currency}>
               {currency.toUpperCase()}
             </option>
